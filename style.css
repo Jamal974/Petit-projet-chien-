@@ -1,10 +1,118 @@
 body {
     background-image: url("/Image/font plan/30025207-arrière-plan-avec-empreinte-de-patte-de-chien-et-d-os.jpg");
 }
-header{
+
+header {
     display: flex;
     align-items: center;
     background-color: brown;
-    
+}
 
+footer {
+    display: flex;
+    align-items: center;
+    background-color: brown;
+}
+
+.buttons>nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10PX;
+}
+
+div>header>img {
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+.introduction-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accueil2 {
+    height: 250px;
+}
+
+.experience>h2 {
+    text-align: center;
+}
+
+.experience>p {
+    display: flex;
+    text-align: center;
+    align-content: space-around;
+}
+
+.Histoirestaf>p {
+    display: flex;
+
+    align-items: center;
+}
+
+.staf{
+    display: flex;
+    justify-content: center;
+}
+.pit{
+    display: flex;
+    justify-content: center;
+}
+.pit{
+    display: flex;
+    justify-content: center;
+}
+
+.staffie{
+    display: flex;
+    justify-content: center;
+}
+
+.bully1{
+    display: flex;
+    justify-content: center;
+}
+
+.standard0{
+    display: flex;
+    justify-content: center;
+}
+.Classic0{
+    display: flex;
+    justify-content: center;
+}
+
+.Pocket0{
+    display: flex;
+    justify-content: center;
+}
+
+.XL0{
+    display: flex;
+    justify-content: center;
+     
+}
+
+.mix{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.mix1{
+    
+  
+    width: 30%;
+    display: flex;
+}
+.p2{
+    text-align: center;
+    
 }
