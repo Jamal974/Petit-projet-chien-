@@ -1,0 +1,10 @@
+body {
+    background-image: url("/Image/font plan/30025207-arrière-plan-avec-empreinte-de-patte-de-chien-et-d-os.jpg");
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: brown;
+    
+
+}
