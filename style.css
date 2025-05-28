@@ -2,14 +2,20 @@ body {
     background-image: url("/Image/font plan/30025207-arrière-plan-avec-empreinte-de-patte-de-chien-et-d-os.jpg");
 }
 
-html, body {
+html,
+body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
-.coeur{
+ .font {
     margin: 10px;
     padding: 10px;
+    flex-grow: 1;
 }
 
 header {
@@ -17,24 +23,28 @@ header {
     align-items: center;
     justify-content: space-around;
     background-color: brown;
-    ;
+
 }
 
 footer {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     background-color: brown;
+ 
+
 }
 
-.buttons>nav {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10PX;
+    width: 100%;
 }
 
-.logo{
-    
+
+.logo {
+
     width: 300px;
 }
 
@@ -71,59 +81,76 @@ h2 {
     align-items: center;
 }
 
-.staf{
-    display: flex;
-    justify-content: center;
-}
-.pit{
-    display: flex;
-    justify-content: center;
-}
 
 
-
-.staffie{
+.staffie {
     display: flex;
     justify-content: center;
 }
 
-.bully1{
+.bully1 {
     display: flex;
     justify-content: center;
 }
 
-.standard0{
-    display: flex;
-    justify-content: center;
-}
-.Classic0{
+.standard0 {
     display: flex;
     justify-content: center;
 }
 
-.Pocket0{
+.Classic0 {
     display: flex;
     justify-content: center;
 }
 
-.XL0{
+.Pocket0 {
     display: flex;
     justify-content: center;
-     
 }
 
-.mix{
+.XL0 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.mix {
     display: flex;
     justify-content: center;
     margin: 10px;
 }
-.mix1{
-    
-  
+
+.mix1 {
+
+
     width: 30%;
     display: flex;
 }
-.p2{
+
+.p2 {
     text-align: center;
-    
+
+}
+
+.c1{
+    margin:10px;
+    border: 1px solid rgb(80, 43, 168);
+}
+
+.c1 h2{
+    padding: 10px;
+    margin: 0;
+    border: 1px solid rgb(156, 8, 8);
+    cursor: pointer;
+}
+
+.paragraphe{
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    transition: 1s height;
+}
+
+.paragraphe p{
+    padding: 10px;
 }
